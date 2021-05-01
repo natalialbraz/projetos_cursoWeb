@@ -1,0 +1,437 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+html, body{
+    height: 100%;
+}
+.clear{
+    clear: both;
+}
+.container{
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    background-color: #D6D6D6;
+    width: 100%;
+    height: auto;
+    padding: 30px 2%;
+}
+header .logo-1{
+    background-image: url("../images/logo1.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 180px;
+    height:60px;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+header .logo-2{
+    background-image: url("../images/logo2.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 180px;
+    height:60px;
+    display: block;
+    margin: 40px auto 0 auto;
+}
+.banner{
+    background-image: url("../images/bg-form.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    
+}
+.formulario{
+    width: 80%;
+    height: 300px;
+    background-color:white;
+    margin:0 auto;  
+    box-shadow: 1px 1px 2px 1px rgb(180, 180, 180); 
+}
+.formulario h2{
+    font-size: 13px;
+    padding: 10px 3%;
+    text-align: center;
+    font-weight: normal;
+    background-color: rgb(210, 210, 210);
+}
+.form-wraper{
+    padding: 0 3%;
+    text-align: center;
+}
+form p{
+    margin-top: 15px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 8px;
+
+}
+form p:last-child{
+    font-size: 13px;
+    margin-top: 5px;
+}
+form input[type=text]{
+    width: 90%;
+    height: 25px;
+    border:1px solid #ccc;
+}
+form input[type=submit]{
+    margin-top: 15px;
+    width: 90%;
+    padding: 5px;
+    border:1px solid #ccc;
+    background-color: #033C50;
+    cursor: pointer;
+    border: 0;
+    color: white;
+}
+.arrow{
+    background-image: url("../images/arrow.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    margin:0 auto;
+    top:-16px;
+    
+}
+section.chamada{
+    width:100%;
+    background-color: #c7e4ed;
+}
+.chamada-wraper{
+    padding: 30px 40px;
+    text-align: center;
+}
+.chamada-wraper h2{
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+section.mosaico{
+    width: 100%;
+    margin: 0 auto;
+}
+.flex-mosaico{
+    display: flex;
+    height: 250px;
+}
+.item-1{
+    width: 60%;
+    height: 100%;
+    background-image: url('../images/mosaico1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.item-2{
+    width: 40%;
+    height: 100%;
+    color: white;
+    font-size: 17px;
+    background-color:#033C50;
+    padding: 60px 40px;
+    text-align: center;
+    
+}
+.item-3{
+    width: 60%;
+    height: 100%;
+    background-image: url('../images/mosaico2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.item-4{
+    width: 40%;
+    height: 100%;
+    color: white;
+    font-size: 17px;
+    background-color:#033C50;
+    padding: 60px 40px;
+    text-align: center;
+}
+.item-5{
+    width: 60%;
+    height: 100%;
+    background-image: url('../images/mosaico3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.item-6{
+    width: 40%;
+    height: 100%;
+    color: white;
+    font-size: 17px;
+    background-color:#033C50;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.item-7{
+    width: 60%;
+    height: 100%;
+    background-image: url('../images/mosaico4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.item-8{
+    width: 40%;
+    height: 100%;
+    font-size: 17px;
+    color: white;
+    background-color:#033C50;
+    padding: 20px 30px;
+    text-align: center;
+}
+.flex-mosaico h2{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+footer{
+    background-color: #c7e4ed;
+    padding: 30px; 
+}
+footer p{
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+}
+footer .img-footer{
+    background-image: url('../images/logo1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 80px;
+    margin:0 auto;  
+}
+/* responsivo */
+
+@media screen and (min-width: 768px){
+    header{
+        height: 150px;
+        padding: 20px 2%;
+    }
+    header .logo-1{
+        width: 180px;
+        height:70px;
+        display:inline-block;
+        float: left;
+        margin: 20px 20px;
+    }
+    header .logo-2{
+        width: 180px;
+        height:70px;
+        display:inline-block;
+        float: right;
+        margin: 20px 20px;
+    }
+    .banner{
+        width: 80%;
+        height: 90vw;
+        padding: 50px;
+        margin: 0 auto;
+    }
+    .formulario{
+        width: 80%;
+        height: 70vw;
+        background-color:white;
+        margin:0 auto;  
+        box-shadow: 1px 1px 2px 1px rgb(180, 180, 180); 
+    }
+    .formulario h2{
+        font-size: 21px;
+        padding: 20px 3%;
+        line-height: 30px;
+        
+    }
+    .form-wraper{
+        margin-top: 40px;
+    }
+    form p{
+        margin-top: 25px;
+        text-align: left;
+        font-size: 21px;
+        margin-left: 15px;
+    }
+    form p:last-child{
+        font-size: 17px;
+        margin-top: 50px;
+    }
+    form input[type=text]{
+        width: 90%;
+        height: 35px;
+        border:1px solid #ccc;
+    }
+    form input[type=submit]{
+        margin-top: 60px;
+        width: 50%;
+        height: 35px;
+        border:1px solid #ccc;
+        background-color: #033C50;
+        cursor: pointer;
+        border: 0;
+        font-size: 21px;
+        color: white;
+    }
+}
+@media screen and (min-width: 1024px){
+    header{
+        height: 150px;
+        padding: 20px 5px;
+
+    }
+    header .logo-1{
+        width: 200px;
+        height:70px;
+        margin: 20px -70px;
+        
+        
+    }
+    header .logo-2{
+        width: 200px;
+        height:70px;
+        margin:20px -70px;
+       
+    }
+    .banner{
+        height: 58vw;
+        padding: 0;
+    }
+    .container{
+        height: inherit;
+    }
+    .formulario{
+        width: 40%;
+        height: calc(100% + 10px);
+        background-color:white;
+        box-shadow: 1px 1px 2px 1px rgb(180, 180, 180); 
+        position: relative;
+        top: -5px;
+        float: right;
+    }
+    .formulario h2{
+        font-size: 19px;
+        padding: 20px 3%;
+        line-height: 20px;
+        
+    }
+    form p{
+        margin-left: 12px;
+    }
+    form p:last-child{
+        font-size: 19px;
+        margin-top: 55px;
+    }
+    form input[type=submit]{
+        margin-top: 60px;
+        width: 90%;
+    }
+    section.mosaico{
+        width: 84%;
+        margin: 0 auto;
+    }
+    .flex-mosaico{
+        display: flex;
+        height: 250px;
+    }
+    .item-1{
+        width: 60%;
+        height: 100%;
+        background-image: url('../images/mosaico1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .item-2{
+        width: 40%;
+        height: 100%;
+        color: white;
+        font-size: 18px;
+        background-color:#033C50;
+        padding: 60px 40px;
+        text-align: right;
+        
+    }
+    .item-3{
+        width: 60%;
+        height: 100%;
+        background-image: url('../images/mosaico2.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .item-4{
+        width: 40%;
+        height: 100%;
+        color: white;
+        font-size: 18px;
+        background-color:#033C50;
+        padding: 60px 40px;
+        text-align: left;
+    }
+    .item-5{
+        width: 60%;
+        height: 100%;
+        background-image: url('../images/mosaico3.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .item-6{
+        width: 40%;
+        height: 100%;
+        color: white;
+        font-size: 18px;
+        background-color:#033C50;
+        padding: 60px 40px;
+        text-align: right;
+    }
+    
+    .item-7{
+        width: 60%;
+        height: 100%;
+        background-image: url('../images/mosaico4.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .item-8{
+        width: 40%;
+        height: 100%;
+        font-size: 18px;
+        color: white;
+        background-color:#033C50;
+        padding: 60px 40px;
+        text-align: left;
+    }
+    .flex-mosaico h2{
+        margin-bottom: 10px;
+        font-size: 23px;
+    }
+    
+}
+@media screen and (min-width: 1280px){
+    .banner{
+        width: 75%;
+        height: 50vw;
+        margin: 0 auto;
+    }
+    .formulario{
+        width: 45%;
+        height: calc(100% + 10px);
+        background-color:white;
+        box-shadow: 1px 1px 2px 1px rgb(180, 180, 180); 
+        position: relative;
+        left:30px;
+    }
+    .formulario h2{
+        line-height: 30px;
+    }
+    
+}
